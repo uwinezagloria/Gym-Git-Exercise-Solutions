@@ -31,3 +31,13 @@ git remote add origin "https://github.com/uwinezagloria/Gym-Git-Exercise-Solutio
      git push
     git reset --hard
     git clean -fd
+    ``` 
+  ## Bundle 2
+   ### Exercise 1
+   ```  bash 
+   git branch "ft/bundle-2"
+    git checkout "ft/bundle-2"
+     git add service.html
+    git commit -m "Add services.html page"
+   git push -u origin ft/bundle-2
+  
