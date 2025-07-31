@@ -40,4 +40,28 @@ git remote add origin "https://github.com/uwinezagloria/Gym-Git-Exercise-Solutio
      git add service.html
     git commit -m "Add services.html page"
    git push -u origin ft/bundle-2
-  
+  ```
+### Exercise 2   
+```bash
+ git checkout main
+    git pull origin main
+    git checkout -b "ft/service-redesign"
+    git add .
+    git commit -m "adding paragraph in service.html page"
+    git push -u origin ft/service-redesign
+    git checkout main
+    git add .
+    git commit -m "adding welcome message to service.html page"
+    git push
+    git add .
+    git commit -m "adding paragraph to service.html page"
+   git push
+   git checkout ft/service-redesign
+   git diff main..ft/service-redesign 
+   git checkout main
+   git pull origin main
+    git merge ft/service-redesign
+ git add .
+   git commit -m "paragraph merged"
+   git push
+ 
