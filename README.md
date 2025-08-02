@@ -64,4 +64,31 @@ git remote add origin "https://github.com/uwinezagloria/Gym-Git-Exercise-Solutio
  git add .
    git commit -m "paragraph merged"
    git push
- 
+```
+## Bundle 3
+### Exercise 1
+``` bash
+git checkout -b ft/team-page
+git add team.html
+git commit -m "Add team.html page"
+git push -u origin ft/team-page
+git checkout main
+git checkout -b ft/contact-page
+git checkout ft/team-page
+git log -1
+git checkout ft/contact-page
+git cherry-pick dd74e47072fda1811e054a1d1a931326fda94c51
+git add contact.html
+git commit -m "Add contact.html page"
+git push -u origin ft/contact-page
+git checkout -b ft/faq-page
+git add faq.html
+git commit -m "Add faq.html page"
+git push -u origin ft/faq-page
+git checkout ft/team-page
+git log
+git revert dd74e47072fda1811e054a1d1a931326fda94c51
+git push origin ft/team-page
+
+
+
