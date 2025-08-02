@@ -89,6 +89,19 @@ git checkout ft/team-page
 git log
 git revert dd74e47072fda1811e054a1d1a931326fda94c51
 git push origin ft/team-page
-
+```
+### Exercise 2
+``` bash
+git checkout ft/faq-page
+    git branch ft/home-page-redesign
+     git checkout main
+     git add .
+     git commit -m "adding welcome paragraph to index page"
+     git push
+     git checkout ft/home-page-redesign
+     git rebase main
+     git add .
+  git commit -m "adding paragraph to home page"
+    git push -u origin ft/home-page-redesign
 
 
