@@ -103,5 +103,16 @@ git checkout ft/faq-page
      git add .
   git commit -m "adding paragraph to home page"
     git push -u origin ft/home-page-redesign
+```
+## Bundle 4
+### Exercise 1
+``` bash
+git checkout main
+git remote add git-copy https://github.com/uwinezagloria/git-copy-test.git
+   git add .
+   git commit -m "addin paragraph to home page"
+   git push origin main
+   git push git-copy main
+
 
 
