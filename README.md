@@ -129,5 +129,13 @@ git checkout -b ft/footer
     git merge --squash ft/footer
     git commit -m "footer changes squashing"
     git push origin ft/squashing
-
+```
+## Bundle 5
+### Exercise 2
+``` bash
+git clone https://github.com/uwinezagloria/git-cafe-exercise.git
+     cd git-cafe-exercise
+     git add .
+    git commit -m "Change the text Welcome to our place to Welcome to our restaurant"
+    git push -u origin main
 
