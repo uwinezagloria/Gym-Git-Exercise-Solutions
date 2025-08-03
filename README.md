@@ -113,6 +113,21 @@ git remote add git-copy https://github.com/uwinezagloria/git-copy-test.git
    git commit -m "addin paragraph to home page"
    git push origin main
    git push git-copy main
-
+ ```
+ ### Exercise 2
+ ``` bash
+git checkout -b ft/footer
+ git add .
+    git commit -m "adding paragraph to index.html page"
+    git push -u origin ft/footer
+    git add .
+    git commit -m " footer.html page"
+    git push
+    git checkout main
+    git branch ft/squashing
+    git checkout ft/squashing
+    git merge --squash ft/footer
+    git commit -m "footer changes squashing"
+    git push origin ft/squashing
 
 
