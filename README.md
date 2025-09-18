@@ -148,3 +148,10 @@ echo "<h1>menu</h1>" >menu.html
 git  add .
  git commit -m " adding page menu.html"
  git push -u origin menu
+```
+### Exercise 2
+``` bash
+git checkout -b "bugFix"
+git add .
+git commit -m "changingt title of index-4.html to contact"
+git push -u origin bugFix
