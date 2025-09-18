@@ -138,4 +138,13 @@ git clone https://github.com/uwinezagloria/git-cafe-exercise.git
      git add .
     git commit -m "Change the text Welcome to our place to Welcome to our restaurant"
     git push -u origin main
-
+```
+## Bundle 6
+### Exercise 1
+``` bash
+git branch "menu"
+git switch menu 
+echo "<h1>menu</h1>" >menu.html
+git  add .
+ git commit -m " adding page menu.html"
+ git push -u origin menu
